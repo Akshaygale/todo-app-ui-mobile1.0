@@ -1,0 +1,176 @@
+.homepage{
+    margin: 100px 300px 200px 300px ;
+}
+/* HEADING SECTION */
+.heading{
+    font-size: 50px;
+    display: grid;
+    grid-template-columns: 1.6fr 5.4fr 0.8fr 3fr;
+}
+.word-task{
+    font-weight: bolder;
+}
+.word-list{
+    font-weight: lighter;
+    color: grey;
+}
+.word-addlist{
+    color: grey;
+    font-size:35px;
+    text-decoration: none;
+    margin-top: 6px;
+}
+
+/*  BOX SECTION */
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.box-heading{
+    text-align: center;
+    color: lightcoral;
+    font-size: x-large;
+    padding: 20px 5px 0px 5px;
+    line-height: 48px;
+}
+.hr-line-heading{
+    margin-left: 40px;
+}
+.box{
+    border: 2px solid lightcoral;
+    height: 300px;
+    width: 200px;
+    margin-top: 60px;
+    border-radius: 12px;
+    font-size: x-large;
+    box-shadow: 6px 6px 10px gray;
+}
+.anchorlink{
+    text-decoration: none;
+}
+.line-through-word{
+    margin: 40px 10px 10px 0px;
+    text-decoration: line-through red;
+    color: red;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+
+/* MOTO G4 SCREEN */
+
+@media screen  and (max-width:360px) {
+    
+    .homepage{
+        margin: 50px 20px 50px 20px ;
+    }
+    /* HEADING SECTION */
+    .heading{
+        font-size: 50px;
+        display: grid;
+        grid-template-columns: 1.6fr 5.4fr 3fr;
+        margin-bottom: 15px;
+    }
+    .word-task{
+        font-weight: bolder;
+    }
+    .word-list{
+        font-weight: lighter;
+        color: grey;
+    }
+    .word-addlist{
+        display: none;
+    }
+
+    /* BOX SECTION */
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .box{
+        border: 1px solid lightcoral;
+        height: 90px;
+        width: 265px;
+        margin-top: 35px;
+        border-radius: 12px;
+        font-size: x-large;
+        box-shadow: 6px 6px 10px grey;
+    }
+    .box-heading{
+        text-align: center;
+        color: gray;
+        font-size: x-large;
+        padding: 20px 5px 0px 5px;
+        line-height: 48px;
+    }
+    .inside-box{
+        display: none;
+    }
+    .anchorlink{
+        text-decoration: none;
+    }
+}
+
+
+/* FOR I_PAD SCREEN */
+
+@media screen and (min-width:361px) and (max-width:768px) {
+        
+    .homepage{
+        margin: 50px 20px 50px 20px ;
+    }
+    /* HEADING SECTION */
+    .heading{
+        font-size: 80px;
+        display: grid;
+        grid-template-columns: 3fr 6.5fr 1fr;
+        margin-bottom: 15px;
+    }
+    .word-task{
+        font-weight: bolder;
+    }
+    .word-list{
+        font-weight: lighter;
+        color: grey;
+    }
+    .word-addlist{
+        display: none;
+    }
+
+    /* BOX SECTION */
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .box{
+        border: 1px solid lightcoral;
+        height: 90px;
+        width: 89%;
+        margin-top: 35px;
+        border-radius: 12px;
+        font-size: xx-large;
+        box-shadow: 6px 6px 10px grey;
+    }
+    .box-heading{
+        text-align: center;
+        color: gray;
+        font-size: xx-large;
+        padding: 20px 5px 0px 5px;
+        line-height: 48px;
+    }
+    .inside-box{
+        display: none;
+    }
+    .anchorlink{
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+
+
+
+

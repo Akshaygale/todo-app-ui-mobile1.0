@@ -1,0 +1,222 @@
+/*  MAIN HEADING */
+.heading {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+hr{
+    margin-top: 40px;
+}
+pre{
+    font-size: 60px;
+    font-family: serif;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+/*  MAIN BODY ELEMENT */
+.arrow-word{
+    display: flex;
+    margin:20px 690px 50px 690px; 
+}
+.backarrow{
+    font-size:40px;
+    color: crimson;
+}
+.word-back{
+    font-size: xx-large;
+    color: grey;
+    margin-top: 4px;   
+    margin-left: 15px;
+}
+.back{
+    text-decoration: none; 
+    color:gray ;
+}
+.paris-box{
+    border: 2px solid lightcoral;
+    height: 400px;
+    width: 400px;
+    border-radius: 12px;
+    font-size: x-large;
+    margin-top: 50px;
+    margin-left: 550px;
+    box-shadow: 6px 6px 10px gray;
+}
+.box-heading{
+    text-align: center;
+    color: lightcoral;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 25px 5px 0px 5px;
+    text-decoration: underline white;
+}
+.hr-line-heading{
+    margin-top: 10px;
+    margin-left: 110px;
+}
+.box-inside{
+    display: grid;
+    grid-template-rows: 5fr 2fr;
+}
+.word-pending{
+    margin-left:60px;
+}
+.line-through-word{
+    margin: 40px 10px 10px 0px;
+    text-decoration: line-through red;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.addlogo{
+    font-size: xx-large;
+    padding: 15px;
+    text-align: end;  
+}
+
+
+
+/* MOTO G4 SCREEN */
+@media screen  and (max-width:360px) {
+    /*  MAIN HEADING */
+    .heading {
+        font-family: serif;
+        margin-left: 40px;
+        margin-right: 0px;
+    }
+    hr{
+        display: none;
+    }
+    pre{
+        font-size: xxx-large;
+        margin-top: 25px;
+        margin-bottom: 7px;
+    }
+    /*  MAIN BODY ELEMENT */
+
+    .backarrow{
+        font-size: 46px;
+        position: absolute;
+        top: 38px;
+        left: 25px;
+    }
+    .word-back{
+        display: none;
+    }
+    .paris-box{
+        border: 1px solid lightcoral;
+        height: 400px;
+        width: 300px;
+        border-radius: 12px;
+        font-size: x-large;
+        margin-left: 21px;
+        box-shadow: 6px 6px 10px grey;
+    }
+    .box-heading{
+        text-align: center;
+        color: lightcoral;
+        font-size: xx-large;
+        font-weight: bolder;
+        padding: 25px 5px 0px 5px;
+        text-decoration: underline white;
+    }
+    .hr-line-heading{
+        margin-top: 10px;
+        margin-left: 110px;
+    }
+    .box-inside{
+        display: grid;
+        grid-template-rows: 5fr 2fr;
+    }
+    .word-pending{
+        margin-left:60px;
+    }
+    .line-through-word{
+        margin: 40px 10px 10px 0px;
+        text-decoration: line-through red;
+        color: red;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .addlogo{
+        font-size: xx-large;
+        padding: 15px;
+        text-align: end;  
+    }
+}
+
+
+/* I-PAD SCREEN */
+
+@media screen and (min-width:361px) and (max-width:768px) {
+
+    /*  MAIN HEADING */
+    .heading {
+        font-family: serif;
+        margin-left: 40px;
+        margin-right: 0px;
+    }
+    hr{
+        display: none;
+    }
+    pre{
+        font-size: 75px;
+        margin-top: 25px;
+        margin-bottom: 7px;
+    }
+    /*  MAIN BODY ELEMENT */
+    .backarrow{
+        font-size: 80px;
+        position: absolute;
+        top: 39px;
+        left: 88px;
+    }
+    .word-back{
+        display: none;
+    }
+    .paris-box{
+        border: 1px solid lightcoral;
+        height: 650px;
+        width: 80%;
+        border-radius: 12px;
+        font-size: xxx-large;
+        margin-left: 63px;
+        box-shadow: 6px 6px 10px grey;
+    }
+    .box-heading{
+        text-align: center;
+        color: lightcoral;
+        font-size: 62px;
+        font-weight: bolder;
+        padding: 30px 5px 30px 5px;
+        text-decoration: underline white;
+    }
+    .hr-line-heading{
+        margin-top: 10px;
+        margin-left: 110px;
+    }
+    .box-inside{
+        display: grid;
+        grid-template-rows: 4.8fr 2fr;
+    }
+    .word-pending{
+        margin-left: 60px;
+    }
+    .line-through-word{
+        margin: 25px 10px 10px 0px;
+        text-decoration: line-through red;
+        color: red;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .addlogo{
+        font-size: 70px;
+        padding: 15px;
+        text-align: end;
+    }
+}
